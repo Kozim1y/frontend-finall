@@ -1,0 +1,23 @@
+@import "./Assets/Styles/normalize.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: 'Mulish', 'Arial', serif;
+  
+    &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;  
+  }
+}
